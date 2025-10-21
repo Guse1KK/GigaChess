@@ -13,8 +13,8 @@ from telebot import types
 import os
 
 from DataBase import DataBase as Base
-
-bot = telebot.TeleBot(token = "8406478816:AAF0BK2e7aI40aMK7Bf-YiLxhi9l5PzdzGg")
+token = ...
+bot = telebot.TeleBot(token = token)
 
 db = Base("GigaBase.db")
 
